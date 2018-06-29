@@ -1,0 +1,23 @@
+{
+  "name": "mint_portal_mobile",
+  "version": "1.0.0",
+  "description": "mint portal mobile",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env PORT=3028 pm2 start ./app.js --name mint_portal_mobile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://47.106.73.16:10080/fe_web/mint_portal_mobile.git"
+  },
+  "keywords": [
+    "mint_portal_mobile"
+  ],
+  "author": "mint_fe",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "koa": "^2.5.1",
+    "koa-static": "^4.0.3"
+  }
+}
