@@ -1,4 +1,6 @@
-静态页输入ip访问
+#静态页输入ip访问
+
 
 1.npm install
-2.npm run start
+2.全局安装PM2
+3.npm run start
