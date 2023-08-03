@@ -4,3 +4,5 @@
 1.npm install
 2.全局安装PM2
 3.npm run start
+
+标记
